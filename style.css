@@ -1,0 +1,27 @@
+body {
+    color: blue;
+    background: #edfcfc;
+    text-align: center;
+    font-size: 25px;
+    font-family: Consolas;
+}
+
+img {
+    width: 50%;
+}
+
+a:hover {
+    color: #4B70F5;
+}
+
+#firstimg {
+    width: 100%;
+    border-radius: 25px;
+    border: 2px solid; /* Adjusted from `border:2px:color;` */
+}
+
+#firstvd {
+    border-radius: 25px;
+}
+
+

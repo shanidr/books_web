@@ -1,0 +1,55 @@
+<!--shani-->
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="open-book.png">
+    <title>ספרים מומלצים</title>
+  </head>
+  
+  <body>
+   <a id="none" href="index.html" target="_blank">site</a>
+   <h1>איזה ספר מתאים לך</h1>
+
+    <p id="pfirst">אני אמליץ לכם על ספרים</p>
+    <input type="text" id="nameInput" placeholder="הכנס את שמך">
+    
+    <button type="button" onclick="displayGreeting()">לחץ</button>
+
+    <p id="greeting"></p>
+
+    <script>
+      function displayGreeting() {
+        var name = document.getElementById('nameInput').value;
+        var greeting =   name + "הי" + '!';
+        document.getElementById('greeting').innerHTML = greeting;
+      }
+    </script>
+    
+    <p>לקניית ספרים לחצו על התמונה</p>
+    <a id="firstimg" href="https://www.e-vrit.co.il/">
+      <img src="book.jpg" alt="book.jpg">
+    </a>
+
+    <h2>סיפור לפני השינה</h2>
+    <a href="https://www.adamtsair.co.il/%D7%A1%D7%99%D7%A4%D7%95%D7%A8%D7%99%D7%9D-%D7%9C%D7%99%D7%9C%D7%93%D7%99%D7%9D/" target="_blank">ספרי ילדים</a>
+    <iframe id="firstvd" width="500" height="315" src="https://www.youtube.com/embed/eHQR1hm5fmE?si=rn6m2i_jYVevXxnW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h2>רומנטיקה</h2>
+    <p>אם אתם אוהבי רומנטיקה כדאי לכם ללחוץ על הקישור</p>
+    <a href="https://www.steimatzky.co.il/%D7%A1%D7%A4%D7%A8%D7%99%D7%9D/%D7%A1%D7%A4%D7%A8%D7%95%D7%AA-%D7%A8%D7%95%D7%9E%D7%A0%D7%98%D7%99%D7%AA" target="_blank">ספרי רומנטיקה</a>
+    
+    <h2>הרפתקאות</h2>
+    <p>אם אתם אוהבי הרפתקאות כדאי לכם לקרוא את אלה:</p>
+    <a href="https://www.e-vrit.co.il/Group/1429/%D7%94%D7%A8%D7%A4%D7%AA%D7%A7%D7%90%D7%95%D7%AA_%D7%9C%D7%99%D7%9C%D7%93%D7%99%D7%9D" target="_blank">ספרי הרפתקאות</a>
+    
+    <h2>מתח</h2>
+    <p>אם אתם אוהבים מתח כדאי לכם לקרוא את הספרים האלה</p>
+    <a href="https://www.e-vrit.co.il/Category/3/%D7%9E%D7%AA%D7%97_%D7%95%D7%A4%D7%A2%D7%95%D7%9C%D7%94" target="_blank">ספרי מתח</a>
+    
+    <h2>מד"ב ופנטזיה</h2>
+    <p>אם אתם אוהבים פנטזיות ומד"ב כדאי לכם ללחוץ על הקישור</p>
+
+  </body>
+  
+</html>
